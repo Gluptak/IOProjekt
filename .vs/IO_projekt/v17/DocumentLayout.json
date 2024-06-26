@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\CheapPC\\source\\repos\\IOProjekt\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{039ABD6C-0E99-4930-86E7-3ACFFC2F14A0}|IO_projekt\\IO_projekt.vcxproj|C:\\Users\\CheapPC\\source\\repos\\IOProjekt\\IO_projekt\\IO_projekt.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{039ABD6C-0E99-4930-86E7-3ACFFC2F14A0}|IO_projekt\\IO_projekt.vcxproj|solutionrelative:IO_projekt\\IO_projekt.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{039ABD6C-0E99-4930-86E7-3ACFFC2F14A0}|IO_projekt\\IO_projekt.vcxproj|C:\\Users\\CheapPC\\source\\repos\\IOProjekt\\IO_projekt\\dane.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{039ABD6C-0E99-4930-86E7-3ACFFC2F14A0}|IO_projekt\\IO_projekt.vcxproj|solutionrelative:IO_projekt\\dane.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IO_projekt.cpp",
+              "DocumentMoniker": "C:\\Users\\CheapPC\\source\\repos\\IOProjekt\\IO_projekt\\IO_projekt.cpp",
+              "RelativeDocumentMoniker": "IO_projekt\\IO_projekt.cpp",
+              "ToolTip": "C:\\Users\\CheapPC\\source\\repos\\IOProjekt\\IO_projekt\\IO_projekt.cpp",
+              "RelativeToolTip": "IO_projekt\\IO_projekt.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-26T21:50:22.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "dane.cpp",
+              "DocumentMoniker": "C:\\Users\\CheapPC\\source\\repos\\IOProjekt\\IO_projekt\\dane.cpp",
+              "RelativeDocumentMoniker": "IO_projekt\\dane.cpp",
+              "ToolTip": "C:\\Users\\CheapPC\\source\\repos\\IOProjekt\\IO_projekt\\dane.cpp",
+              "RelativeToolTip": "IO_projekt\\dane.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-26T21:50:21.486Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
