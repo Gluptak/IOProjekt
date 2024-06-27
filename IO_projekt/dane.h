@@ -1,17 +1,25 @@
-#pragma once
 #ifndef DANE_H
 #define DANE_H
 
-#include <string>
 #include <vector>
+#include <string>
 
 class Dane {
 public:
-    std::vector<std::vector<std::string>> dane_pacjenta;
-    std::string tabela_danych;
+    virtual void Wczytanie_Danych(const std::string& plik) = 0;
+    virtual void Zapisanie_Danych(const std::string& plik) = 0;
+    virtual void Wyswietlanie_Procesu(int obecny, int calkowity) = 0;
 
-    void wczytanie_danych(std::string file);
-    void wprowadzenie_danych(const std::vector<std::vector<std::string>>& data);
+    std::vector<std::vector<std::string>> dane;
+    int liczba_wierszy;
+    int liczba_kolumn;
+};
+
+class DaneImpl : public Dane {
+public:
+    void Wczytanie_Danych(const std::string& plik) override;
+    void Zapisanie_Danych(const std::string& plik) override;
+    void Wyswietlanie_Procesu(int obecny, int calkowity) override;
 };
 
 #endif

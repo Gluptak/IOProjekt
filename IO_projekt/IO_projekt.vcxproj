@@ -18,6 +18,17 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dane.h" />
+    <ClInclude Include="diagnoza.h" />
+    <ClInclude Include="wyniki.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dane.cpp" />
+    <ClCompile Include="diagnoza.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="wyniki.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -114,7 +125,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
@@ -128,7 +139,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
@@ -138,21 +149,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="dane.cpp" />
-    <ClCompile Include="diagnoza.cpp" />
-    <ClCompile Include="IO_projekt.cpp" />
-    <ClCompile Include="uzytkownik.cpp" />
-    <ClCompile Include="wynik.cpp" />
-    <ClCompile Include="XLSHandler.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="dane.h" />
-    <ClInclude Include="diagnoza.h" />
-    <ClInclude Include="uzytkownik.h" />
-    <ClInclude Include="wynik.h" />
-    <ClInclude Include="XLSHandler.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
