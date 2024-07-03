@@ -1,13 +1,19 @@
 #ifndef DIAGNOZA_H
 #define DIAGNOZA_H
 
-#include "dane.h"
+#include <vector>
 
 class Diagnoza {
 public:
-    void Analiza_danych(Dane& dane, int liczba_uczacych_wierszy);
-    void Predykcja(Dane& dane);
-    double Pomiar_Poprawnosci(const std::string& plik, const std::string& plik_wynikowy);
+    Diagnoza(int numFeatures) : wagi(numFeatures + 1, 0.0) {}
+    void Analiza_danych(const std::vector<std::vector<double>>& X, const std::vector<int>& y, int epochs, double learningRate);
+    int Przewidywanie(const std::vector<double>& x);
+
+private:
+    std::vector<double> wagi;
+
+    double sigmoid(double z) const;
+    double iloczynSkalarny(const std::vector<double>& x1, const std::vector<double>& x2) const;
 };
 
-#endif
+#endif 

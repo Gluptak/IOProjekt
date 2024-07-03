@@ -1,26 +1,29 @@
-﻿  dane.cpp
-C:\Users\CheapPC\source\repos\IOProjekt\IO_projekt\dane.cpp(9,22): warning C4566: character represented by universal-character-name '\u017C' cannot be represented in the current code page (1252)
-C:\Users\CheapPC\source\repos\IOProjekt\IO_projekt\dane.cpp(9,22): warning C4566: character represented by universal-character-name '\u0107' cannot be represented in the current code page (1252)
-C:\Users\CheapPC\source\repos\IOProjekt\IO_projekt\dane.cpp(32,31): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\CheapPC\source\repos\IOProjekt\IO_projekt\dane.cpp(33,34): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\CheapPC\source\repos\IOProjekt\IO_projekt\dane.cpp(40,22): warning C4566: character represented by universal-character-name '\u017C' cannot be represented in the current code page (1252)
-C:\Users\CheapPC\source\repos\IOProjekt\IO_projekt\dane.cpp(40,22): warning C4566: character represented by universal-character-name '\u0107' cannot be represented in the current code page (1252)
-  diagnoza.cpp
-C:\Users\CheapPC\source\repos\IOProjekt\IO_projekt\diagnoza.cpp(8,18): warning C4566: character represented by universal-character-name '\u0119' cannot be represented in the current code page (1252)
-C:\Users\CheapPC\source\repos\IOProjekt\IO_projekt\diagnoza.cpp(8,92): warning C4566: character represented by universal-character-name '\u0105' cannot be represented in the current code page (1252)
-C:\Users\CheapPC\source\repos\IOProjekt\IO_projekt\diagnoza.cpp(56,19): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+﻿  DaneImpl.cpp
+C:\Users\CheapPC\source\repos\IOProjekt\IO_projekt\DaneImpl.cpp(20,22): warning C4566: character represented by universal-character-name '\u0142' cannot be represented in the current code page (1252)
+C:\Users\CheapPC\source\repos\IOProjekt\IO_projekt\DaneImpl.cpp(20,22): warning C4566: character represented by universal-character-name '\u0105' cannot be represented in the current code page (1252)
+C:\Users\CheapPC\source\repos\IOProjekt\IO_projekt\DaneImpl.cpp(20,22): warning C4566: character represented by universal-character-name '\u017C' cannot be represented in the current code page (1252)
+C:\Users\CheapPC\source\repos\IOProjekt\IO_projekt\DaneImpl.cpp(20,22): warning C4566: character represented by universal-character-name '\u0107' cannot be represented in the current code page (1252)
+  Diagnoza.cpp
+  Wyniki.cpp
+C:\Users\CheapPC\source\repos\IOProjekt\IO_projekt\Wyniki.cpp(25,18): warning C4566: character represented by universal-character-name '\u0142' cannot be represented in the current code page (1252)
+C:\Users\CheapPC\source\repos\IOProjekt\IO_projekt\Wyniki.cpp(33,22): warning C4566: character represented by universal-character-name '\u0142' cannot be represented in the current code page (1252)
+C:\Users\CheapPC\source\repos\IOProjekt\IO_projekt\Wyniki.cpp(33,22): warning C4566: character represented by universal-character-name '\u0105' cannot be represented in the current code page (1252)
+C:\Users\CheapPC\source\repos\IOProjekt\IO_projekt\Wyniki.cpp(33,22): warning C4566: character represented by universal-character-name '\u017C' cannot be represented in the current code page (1252)
+C:\Users\CheapPC\source\repos\IOProjekt\IO_projekt\Wyniki.cpp(33,22): warning C4566: character represented by universal-character-name '\u0107' cannot be represented in the current code page (1252)
   main.cpp
-C:\Users\CheapPC\source\repos\IOProjekt\IO_projekt\main.cpp(13,18): warning C4566: character represented by universal-character-name '\u015B' cannot be represented in the current code page (1252)
-C:\Users\CheapPC\source\repos\IOProjekt\IO_projekt\main.cpp(13,18): warning C4566: character represented by universal-character-name '\u017C' cannot be represented in the current code page (1252)
-C:\Users\CheapPC\source\repos\IOProjekt\IO_projekt\main.cpp(13,18): warning C4566: character represented by universal-character-name '\u0119' cannot be represented in the current code page (1252)
-C:\Users\CheapPC\source\repos\IOProjekt\IO_projekt\main.cpp(19,18): warning C4566: character represented by universal-character-name '\u0119' cannot be represented in the current code page (1252)
-C:\Users\CheapPC\source\repos\IOProjekt\IO_projekt\main.cpp(19,18): warning C4566: character represented by universal-character-name '\u0105' cannot be represented in the current code page (1252)
-C:\Users\CheapPC\source\repos\IOProjekt\IO_projekt\main.cpp(26,18): warning C4566: character represented by universal-character-name '\u015B' cannot be represented in the current code page (1252)
-C:\Users\CheapPC\source\repos\IOProjekt\IO_projekt\main.cpp(26,18): warning C4566: character represented by universal-character-name '\u017C' cannot be represented in the current code page (1252)
-C:\Users\CheapPC\source\repos\IOProjekt\IO_projekt\main.cpp(26,18): warning C4566: character represented by universal-character-name '\u0119' cannot be represented in the current code page (1252)
-  wyniki.cpp
+C:\Users\CheapPC\source\repos\IOProjekt\IO_projekt\main.cpp(35,29): warning C4566: character represented by universal-character-name '\u015B' cannot be represented in the current code page (1252)
+C:\Users\CheapPC\source\repos\IOProjekt\IO_projekt\main.cpp(35,29): warning C4566: character represented by universal-character-name '\u017C' cannot be represented in the current code page (1252)
+C:\Users\CheapPC\source\repos\IOProjekt\IO_projekt\main.cpp(35,29): warning C4566: character represented by universal-character-name '\u0119' cannot be represented in the current code page (1252)
+C:\Users\CheapPC\source\repos\IOProjekt\IO_projekt\main.cpp(36,33): warning C4566: character represented by universal-character-name '\u015B' cannot be represented in the current code page (1252)
+C:\Users\CheapPC\source\repos\IOProjekt\IO_projekt\main.cpp(36,33): warning C4566: character represented by universal-character-name '\u017C' cannot be represented in the current code page (1252)
+C:\Users\CheapPC\source\repos\IOProjekt\IO_projekt\main.cpp(36,33): warning C4566: character represented by universal-character-name '\u0119' cannot be represented in the current code page (1252)
+C:\Users\CheapPC\source\repos\IOProjekt\IO_projekt\main.cpp(37,34): warning C4566: character represented by universal-character-name '\u015B' cannot be represented in the current code page (1252)
+C:\Users\CheapPC\source\repos\IOProjekt\IO_projekt\main.cpp(37,34): warning C4566: character represented by universal-character-name '\u017C' cannot be represented in the current code page (1252)
+C:\Users\CheapPC\source\repos\IOProjekt\IO_projekt\main.cpp(37,34): warning C4566: character represented by universal-character-name '\u0119' cannot be represented in the current code page (1252)
+C:\Users\CheapPC\source\repos\IOProjekt\IO_projekt\main.cpp(45,29): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
   Generating code
-  Previous IPDB not found, fall back to full compilation.
-  All 410 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  5 of 802 functions ( 0.6%) were compiled, the rest were copied from previous compilation.
+    2 functions were new in current compilation
+    15 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
-  IO_projekt.vcxproj -> C:\Users\CheapPC\Source\Repos\IOProjekt\x64\Release\IO_projekt.exe
+  IO_projekt.vcxproj -> C:\Users\CheapPC\source\repos\IOProjekt\x64\Release\IO_projekt.exe

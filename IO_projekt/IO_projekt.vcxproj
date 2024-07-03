@@ -19,15 +19,16 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="dane.h" />
-    <ClInclude Include="diagnoza.h" />
-    <ClInclude Include="wyniki.h" />
+    <ClInclude Include="Dane.h" />
+    <ClInclude Include="DaneImpl.h" />
+    <ClInclude Include="Diagnoza.h" />
+    <ClInclude Include="Wyniki.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="dane.cpp" />
-    <ClCompile Include="diagnoza.cpp" />
+    <ClCompile Include="DaneImpl.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="wyniki.cpp" />
+    <ClCompile Include="Diagnoza.cpp" />
+    <ClCompile Include="Wyniki.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
