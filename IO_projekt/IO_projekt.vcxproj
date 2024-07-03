@@ -25,7 +25,6 @@
     <ClInclude Include="Wyniki.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="DaneImpl.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Diagnoza.cpp" />
     <ClCompile Include="Wyniki.cpp" />
